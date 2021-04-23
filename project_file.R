@@ -7,10 +7,6 @@ library(stringr)
 
 ## Data 
 
-Data <- read.table(here::here("data","SoilTrackerData.txt"), header = TRUE)
-fun_otu_tab <- readRDS(here::here("data","samples_focussed_otu_tab.RDS"))
-euk_otu_tab <- readRDS(here::here("data", "euk_raw_derep.RDS"))
-
 # Checking for overrepresentation of one of the classes. 
 is.Forest <- nrow(Data[Data$Forest == 1, ])
 is.Forest 
