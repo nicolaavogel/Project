@@ -1,15 +1,17 @@
 # Project
-Thesis preparation project: "Improving prediction models on metabarcoding data"
+Thesis preparation project: "Improving prediction models on metabarcoding data" 
+
+This projects was completed at the Department of GeoGenetics, GLOBE Institute, University of Copenhagen and supervised by [Tobias Guldberg Frøslev](https://github.com/tobiasgf), who also provided all the data. This project is based on Fløjgaard et al*.’s (2019)[[1]](#1) publication and aimed to improve their prediction models. 
 
 ABSTRACT:
 
 Predictive modelling is a tool in data analysis to predict an unknown class or predict a future
 event with statistical methods. Applying predictive models to metabarcoding data takes the
 underlying patterns of present and absent species, and then predict different kinds of
-ecological factors. This method was used in the publication of ​ Fløjgaard et al.’s (2019) to
+ecological factors. This method was used in the publication of *Fløjgaard et al*.’s (2019)[[1]](#1) to
 predict environmental factors, geographical locations and different habitat types. The data
 samples used was metabarcoded eDNA from soil and came from 130 different sites across
-Denmark. ​ Fløjgaard et al ​ .’s (2019) study aimed to show the potential for provenance
+Denmark. *Fløjgaard et al*.’s (2019)[[1]](#1) study aimed to show the potential for provenance
 prediction in forensic science and the importentness of eDNA in forensic ecology. While
 showing good results for predicting environmental gradients, the prediction of geographic
 origins and habitat types showed some difficulties.
@@ -29,3 +31,8 @@ positives.
 Ultimately, better results are shown when changing the classification method and adding
 more predictor variables, especially predictor variables from different ecological species.
 
+## References
+<a id="1">[1]</a>
+Fløjgaard, C. *et al.* (2019).      
+‘Predicting provenance of forensic soil samples: Linking soil to ecological habitats by metabarcoding and supervised classification’.      
+*PloS one* , 14(7), p. e0202844
